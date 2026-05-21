@@ -1,0 +1,16 @@
+#include<stdio.h> 
+#include<stdlib.h>
+
+int main(void)
+{
+	float nota;
+	
+	printf("Digite a nota: ");
+	scanf("%f", &nota);
+	
+	printf("%s\n", nota >= 6 ? "Aprovado" : "Reprovado");
+	
+		
+		system("pause");
+	return 0;
+}
